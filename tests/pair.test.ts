@@ -1,9 +1,16 @@
 import type { Tests } from "@vangware/test";
 import { h } from "preact";
-import { renderToString } from "preact-render-to-string/dist/index.js";
+// @ts-expect-error "preact-render-to-string" doesn't work well with the new TS types
+import preactRenderToString from "preact-render-to-string";
 import { useState } from "preact/hooks";
 import { pair } from "../src/pair.js";
 import type { PairedRenderFunction } from "../src/PairedRenderFunction.js";
+
+// TODO: Remove this once the types are fixed in Preact's side.
+// eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
+const renderToString = preactRenderToString as (
+	...stuff: ReadonlyArray<unknown>
+) => string;
 
 const children = (usePairedState: typeof useState) => {
 	// eslint-disable-next-line react-hooks/rules-of-hooks
