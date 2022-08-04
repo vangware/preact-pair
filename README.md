@@ -73,18 +73,18 @@ Changelog can be found [HERE][changelog].
 <!-- Reference -->
 
 [build-status-badge]:
-	https://img.shields.io/github/workflow/status/vangware/preact-pair/Test%20&%20Coverage.svg?style=for-the-badge&labelColor=666&color=2b7&link=https://github.com/vangware/preact-pair/actions
+	https://img.shields.io/github/workflow/status/vangware/preact-pair/Test%20&%20Coverage.svg?style=for-the-badge&labelColor=666&color=0a8&link=https://github.com/vangware/preact-pair/actions
 [changelog]: https://github.com/vangware/preact-pair/blob/main/CHANGELOG.md
 [coverage-badge]:
-	https://img.shields.io/coveralls/github/vangware/preact-pair.svg?style=for-the-badge&labelColor=666&color=2b7&link=https://coveralls.io/github/vangware/preact-pair
+	https://img.shields.io/coveralls/github/vangware/preact-pair.svg?style=for-the-badge&labelColor=666&color=0a8&link=https://coveralls.io/github/vangware/preact-pair
 [deno]: https://deno.land/
 [documentation]: https://preact-pair.vangware.com
 [license-badge]:
-	https://img.shields.io/npm/l/preact-pair.svg?style=for-the-badge&labelColor=666&color=2b7&link=https://github.com/vangware/preact-pair/blob/main/LICENSE
+	https://img.shields.io/npm/l/preact-pair.svg?style=for-the-badge&labelColor=666&color=0a8&link=https://github.com/vangware/preact-pair/blob/main/LICENSE
 [npm-version-badge]:
-	https://img.shields.io/npm/v/preact-pair.svg?style=for-the-badge&labelColor=666&color=2b7&link=https://npm.im/preact-pair
+	https://img.shields.io/npm/v/preact-pair.svg?style=for-the-badge&labelColor=666&color=0a8&link=https://npm.im/preact-pair
 [open-issues-badge]:
-	https://img.shields.io/github/issues/vangware/preact-pair.svg?style=for-the-badge&labelColor=666&color=2b7&link=https://github.com/vangware/preact-pair/issues
+	https://img.shields.io/github/issues/vangware/preact-pair.svg?style=for-the-badge&labelColor=666&color=0a8&link=https://github.com/vangware/preact-pair/issues
 [typedoc]: https://typedoc.org/
 [vangware]: https://vangware.com
 [vscode]: https://code.visualstudio.com/
