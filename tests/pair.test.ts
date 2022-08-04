@@ -1,6 +1,6 @@
 import type { Tests } from "@vangware/test";
 import { h } from "preact";
-import renderToString from "preact-render-to-string";
+import { renderToString } from "preact-render-to-string/dist/index.js";
 import { useState } from "preact/hooks";
 import { pair } from "../src/pair.js";
 import type { PairedRenderFunction } from "../src/PairedRenderFunction.js";
