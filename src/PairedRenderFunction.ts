@@ -1,4 +1,4 @@
-import type { GenericFunction, Unary } from "@vangware/types";
+import type { Function, Unary } from "@vangware/types";
 import type { VNode } from "preact";
 
 /**
@@ -6,7 +6,4 @@ import type { VNode } from "preact";
  *
  * @category Internal
  */
-export type PairedRenderFunction<Hook extends GenericFunction> = Unary<
-	Hook,
-	VNode
->;
+export type PairedRenderFunction<Hook extends Function> = Unary<Hook, VNode>;
