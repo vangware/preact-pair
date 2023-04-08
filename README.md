@@ -66,12 +66,17 @@ documentation in the UI.
 
 Changelog can be found [HERE][changelog].
 
+## Test coverage
+
+Test coverage can be found [HERE][coverage].
+
 <!-- Reference -->
 
 [article]: https://lukeshiru.dev/articles/the-paired-hook-pattern
 [changelog]: https://github.com/vangware/preact-pair/blob/main/CHANGELOG.md
 [coverage-badge]:
 	https://img.shields.io/coveralls/github/vangware/preact-pair.svg?style=for-the-badge&labelColor=666&color=0a8&link=https://coveralls.io/github/vangware/preact-pair
+[coverage]: https://coveralls.io/github/vangware/preact-pair
 [deno]: https://deno.land/
 [documentation]: https://preact-pair.vangware.com
 [license-badge]:
