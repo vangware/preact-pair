@@ -3,5 +3,5 @@
 	"cname": "preact-pair.vangware.com",
 	"entryPoints": ["./src"],
 	"extends": ["@vangware/configs/typedoc.json"],
-	"name": "Preact Pair"
+	"name": "Preact Pair by Vangware"
 }

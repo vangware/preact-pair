@@ -1,4 +1,4 @@
-<img alt="Vangware's Preact Pair" src="./logo.svg" height="192" />
+<img id="logo" alt="Preact Pair by Vangware" src="./logo.svg" height="192" />
 
 ![Coverage][coverage-badge] ![License][license-badge]
 ![NPM Version][npm-version-badge] ![Open Issues][open-issues-badge]
