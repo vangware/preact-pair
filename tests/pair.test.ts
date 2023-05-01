@@ -2,8 +2,8 @@ import type { Tests } from "@vangware/test";
 import { h } from "preact";
 import { renderToString } from "preact-render-to-string";
 import { useState } from "preact/hooks";
-import { pair } from "../src/pair.js";
 import type { PairedRenderFunction } from "../src/PairedRenderFunction.js";
+import { pair } from "../src/pair.js";
 
 const children = (usePairedState: typeof useState) => {
 	// eslint-disable-next-line react-hooks/rules-of-hooks
@@ -61,4 +61,4 @@ export default [
 				),
 			),
 	},
-] as Tests;
+] satisfies Tests<string>;
