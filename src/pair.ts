@@ -1,5 +1,5 @@
-import type { Function } from "@vangware/types";
-import type { FunctionComponent } from "preact";
+import type { Function, Unary } from "@vangware/types";
+import type { h } from "preact";
 import type { PairedComponentProperties } from "./PairedComponentProperties.js";
 
 /**
@@ -39,12 +39,13 @@ import type { PairedComponentProperties } from "./PairedComponentProperties.js";
  * @param hook Hook to be paired.
  * @returns Component that expects a function as children with the paired hook.
  */
-export const pair = <Hook extends Function>(
-	hook: Hook,
-): FunctionComponent<PairedComponentProperties<Hook>> =>
+export const pair = <Hook extends Function>(hook: Hook) =>
 	Object.assign(
-		(({ children }) => children(hook)) as FunctionComponent<
-			PairedComponentProperties<Hook>
+		(({ children }) => children(hook)) as Unary<
+			PairedComponentProperties<Hook>,
+			ReturnType<typeof h>
 		>,
 		{ displayName: `paired(${hook.name})` },
-	);
+	) as Unary<PairedComponentProperties<Hook>, ReturnType<typeof h>> & {
+		readonly displayName: `paired(${string})`;
+	};

@@ -1,6 +1,7 @@
 {
 	"extends": "@vangware/configs/typescript.config.json",
 	"compilerOptions": {
+		"jsxFactory": "h",
 		"outDir": "./dist"
 	},
 	"include": [
