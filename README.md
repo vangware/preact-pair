@@ -1,4 +1,6 @@
-# This repository's code was moved to [this monorepo](https://github.com/vangware/libraries/tree/main/packages/preact-pair).
+> This repository's code was moved to [lou.codes](https://lou.codes).
+
+---
 
 <img id="logo" alt="Preact Pair by Vangware" src="./logo.svg" height="128" />
 
